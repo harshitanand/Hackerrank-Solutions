@@ -2,7 +2,7 @@
 
 import sys
 
-if name == "_main_":
+if __name__ == "__main__":
     n = int(raw_input().strip())
     res = 0
     for i in xrange(n):

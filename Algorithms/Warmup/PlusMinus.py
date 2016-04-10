@@ -1,6 +1,6 @@
 import sys
 
-if name == "_main_":
+if __name__ == "__main__":
     size = input()
     array = map(int, raw_input().split())
     neg, zer, pos = 0, 0, 0

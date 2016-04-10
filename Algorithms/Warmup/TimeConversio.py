@@ -1,6 +1,6 @@
 import sys
 
-if name == "_main_":
+if __name__ == "__main__":
     time = raw_input().strip().split(':')
     if time[2][2] == 'A':
         if time[0]=='12':
